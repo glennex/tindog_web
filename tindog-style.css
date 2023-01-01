@@ -1,0 +1,172 @@
+body {
+  font-family: Montserrat;
+}
+h2 {
+  font-family: Ubuntu;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 5%;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.header {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-1 {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Ubuntu";
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: "Ubuntu";
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.phone {
+  width: 60%;
+  transform: rotate(25deg);
+
+}
+
+#features {
+  padding: 10% 0;
+  background-color: #fff;
+
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  font-size: 3.5rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68
+}
+
+
+
+.para {
+  font-family: Ubuntu;
+  font-weight: normal;
+  color: #8f8f8f;
+  padding: 0 5%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.card {
+  text-align: center;
+  border: solid;
+}
+
+.signup-btn {
+  width: 100%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.card-box {
+  padding: 3% 2%;
+}
+
+@media (max-width:1000px) {
+  .phone{
+    transform: rotate(0);
+  }
+body{
+  text-align: center;
+}
+.feature-box{
+  margin: 3% 0;
+}
+.navbar{
+  text-align: left;
+}
+h2{
+  line-height: 5rem;
+}
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15% 0 15%;
+  text-align: center;
+}
+.cta-h{
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+#footer{
+  padding: 10px 0;
+  background-color: #ef8172;
+  text-align:center;
+  color: #fff;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+.f-icons{
+  padding: 1%;
+  font-size: 1.5rem;
+}
+.f-icons:hover{
+  color: #ff4c68;
+}
